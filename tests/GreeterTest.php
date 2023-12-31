@@ -10,6 +10,6 @@ final class GreeterTest extends TestCase
 
         $greeting = $greeter->greet('Alice');
 
-        $this->assertSame('Hello, Lau!', $greeting);
+        $this->assertSame('Hello, Alice!', $greeting);
     }
 }
